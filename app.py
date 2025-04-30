@@ -41,14 +41,14 @@ preprocessor.preprocess()
 label_generator = LabelGenerator(preprocessor.df)
 label_generator.label_generation_pipeline()
 
-# Give the sidebar for the app navigation
+# Gives the sidebar for the app navigation
 st.sidebar.title("Navigation")
 st.sidebar.info("Navigate through the pages sequentially.")
 page = st.sidebar.radio("Go to:", ["Home","Data Exploration", "EDA with climate events", "Feature Engineering",
                                    "Model Training and Evaluation", "Prediction", "About"])
 
 
-# Display the selected page
+# Displays the selected page
 if page == "Home":  
     home_pg.show()
 elif page == "Data Exploration":    

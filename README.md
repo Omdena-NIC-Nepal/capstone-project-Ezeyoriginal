@@ -3,18 +3,18 @@
 
 Extreme Weather Event Detection and Prediction ML Project-Nepal App /
 |
-|-- app.py                  # Main Streamlit app
+|-- app.py                  # streamlit app
 | 
 |-- data/
 |   |-- Shape_Data_district/          # Shape file of Nepal District boundary
-|   |-- dailyclimate-2.csv        # Daily climate data of Nepal
+|   |-- dailyclimate-2.csv        # climate data of Nepal
 |
-|-- models/    # Saved trained models and scalers
+|-- models/    # trained models and scalers
 |
 |-- utils/
 |   |-- data_utils.py       # Data Laoding
 |   |-- preprocessing.py    # Data pre-processing
-|   |-- visualizations.py   # data visualization
+|   |-- visualizations.py   # Data visualization
 |   |-- feature_engineering.py  # Feature engineering
 |   |-- label_generation.py     # Label generation (Extreme event labeling)
 |   |-- models.py           # model loading, training and evaluation
@@ -29,17 +29,17 @@ Extreme Weather Event Detection and Prediction ML Project-Nepal App /
 |   |-- prediction_pg.py 
 |   |-- about_pg.py
 | 
-|-- requirements.txt        # Project dependencies
+|-- requirements.txt        # The project dependencies
 |-- README.md
 |-- .gitignore
 -->
 
-# 🌩️ Extreme Weather Event Detection and Prediction in Nepal
+# Intense Weather Event Detection and Prediction in Nepal:
 
 This Streamlit application helps explore historical weather patterns and predict future extreme weather events in Nepal. It uses geospatial and climate data along with machine learning models to provide real-time analytics and visualizations.
 
 ---
-# The Project Structure:
+# Project Structure:
 ```
 Extreme Weather Event Detection and Prediction ML Project-Nepal App /
 |
@@ -73,7 +73,7 @@ Extreme Weather Event Detection and Prediction ML Project-Nepal App /
 |-- README.md
 |-- .gitignore
 ```
-## 📌 Features
+##  Main features:
 
 - Interactive **Data Exploration** by district and date
 - Forecasting of **temperature**, **precipitation**, and **wind speed**
@@ -82,6 +82,6 @@ Extreme Weather Event Detection and Prediction ML Project-Nepal App /
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure:
 
 . ├── app.py # Main Streamlit app ├── requirements.txt # Dependencies ├── README.md # Project documentation ├── data/ # Input data files ├── models/ # Trained ML models ├── pages_streamlit/ # Streamlit UI pages │ ├── data_exploration_pg.py │ ├── prediction_pg.py │ └── about_pg.py ├── utils/ # Helper functions │ ├── data_loader.py │ ├── preprocessor.py │ ├── predictor.py │ └── visualizer.py
